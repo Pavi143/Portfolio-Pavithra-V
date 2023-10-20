@@ -4,52 +4,37 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "SQLite Clone",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    demo: "https://github.com/Pavi143/SQL-database",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
+    title: "MovieDB App",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo: "https://movieapp-react-pavithra-qs6draeqg-pavi143s-projects.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
+    title: "Weather App",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    demo: "https://weather-react-1gyjf21ov-pavi143s-projects.vercel.app/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Maintaining tasks and tracking progress",
+    title: "Portfolio",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/1695582-Maintaining-tasks-and-tracking-progress",
+    demo: "pavithra.tech",
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
+  
 ];
 
 const Portfolio = () => {
