@@ -13,24 +13,24 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>dummy@gmail.com</h5>
-            <a href="mailto:dummy@gmail.com" target="_blank" rel="noreferrer">
+            <h5>vspavipavi@gmail.com</h5>
+            <a href="mailto:vspavipavi@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>dummyuser</h5>
-            <a href="https://m.me/dummy" target="_blank" rel="noreferrer">
+            <h5></h5>
+            <a href="https://www.linkedin.com/in/pavithra-v-323195217" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
           <article className="contact__option">
             <RiWhatsappLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com" target="_blank" rel="noreferrer">
+            <h5>6381184391</h5>
+            <a href="https://wa.me/916381184391" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
