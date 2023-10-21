@@ -29,7 +29,7 @@ const Contact = () => {
           <article className="contact__option">
             <RiWhatsappLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>6381184391</h5>
+            <h5></h5>
             <a href="https://wa.me/916381184391" target="_blank" rel="noreferrer">
               Send a message
             </a>
