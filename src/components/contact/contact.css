@@ -3,13 +3,19 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  
+  
 }
 
 .contact__options {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+  width: 100%;
+  max-width: 58%; 
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 12px; 
 }
+
 
 .contact__option {
   background: var(--color-bg-variant);
@@ -18,6 +24,7 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  
 }
 
 .contact__option:hover {

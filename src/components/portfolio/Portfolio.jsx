@@ -1,40 +1,47 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/codingclub.jpeg";
+import IMG2 from "../../assets/a2a-point.jpeg";
+import IMG3 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/design-patterns.jpeg";
+import IMG5 from "../../assets/portfolio1.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "SQLite Clone",
-    github: "https://github.com",
-    demo: "https://github.com/Pavi143/SQL-database",
+    title: "Coding Club GCT Website",
+    github: "https://github.com/coding-club-gct/front-gate",
+    demo: "https://codingclubgct.in/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "MovieDB App",
-    github: "https://github.com",
-    demo: "https://movieapp-react-pavithra-qs6draeqg-pavi143s-projects.vercel.app/",
+    title: "A2A Point Website ",
+    github: "https://github.com/useEffects/a2apoint?tab=readme-ov-file#project-report",
+    demo: "https://a2apoint.com/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Weather App",
-    github: "https://github.com",
-    demo: "https://weather-react-1gyjf21ov-pavi143s-projects.vercel.app/",
+    title: "Portfolio",
+    github: "https://github.com/Pavi143/Portfolio-Pavithra-V",
+    demo: "pavithra.tech",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Portfolio",
-    github: "https://github.com",
-    demo: "pavithra.tech",
+    title: "Design Patterns",
+    github: "https://github.com/coding-club-gct/design-patterns",
+    demo: "https://github.com/coding-club-gct/design-patterns/blob/main/README.md",
   },
-  
+  {
+    id: 5,
+    image: IMG5,
+    title: "SQLite Clone",
+    github: "https://github.com/coding-club-gct/sqlite-clone",
+    demo: "https://github.com/coding-club-gct/sqlite-clone",
+  }
 ];
 
 const Portfolio = () => {
