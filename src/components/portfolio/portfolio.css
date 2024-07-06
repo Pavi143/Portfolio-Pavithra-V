@@ -31,6 +31,9 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
+.portfolio__item-description p {
+  margin-bottom: 1rem; 
+}
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {

@@ -37,8 +37,8 @@ const data = [
     role: "Trust member",
     demo: [
       "Member of 94GCTians Trust, engaged in various club activities.",
-      "Participated in and conducted events like Trust Annual Function, Junior Meet, and Senior Farewell.",
-      "Acted as a Trust Executive, participating and organizing Trust competitions."
+      "Conducted events like Trust Annual Function, Juniors Meet, and Seniors Farewell.",
+      "Acted as a Trust Executive, participating and organizing Trust competitions as a volunteer."
       ]
   },
 
@@ -57,7 +57,7 @@ const Work = () => {
           return (
             <article className="portfolio__item" key={id}>
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} style={{ width: '300px', height: '300px' }}   />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">

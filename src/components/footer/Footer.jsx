@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        DUMMY
+        QUICK LINKS
       </a>
       <ul className="permalinks">
         <li>
@@ -28,9 +28,6 @@ const Footer = () => {
       <div className="footer__socials">
         <a href="https://github.com/Pavi143" target="blank">
           <FaGithub />
-        </a>
-        <a href="https://www.instagram.com/pavi_vs_010403?igsh=MXZzeXcwaTBsZ3BjeQ==" target="blank">
-          <FaInstagram />
         </a>
         <a href="https://www.linkedin.com/in/pavithra-v-323195217" target="blank">
           <FaLinkedin />

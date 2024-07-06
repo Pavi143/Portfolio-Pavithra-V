@@ -13,6 +13,11 @@ const data = [
     title: "Coding Club GCT Website",
     github: "https://github.com/coding-club-gct/front-gate",
     demo: "https://codingclubgct.in/",
+    description: [
+      "Superheaded the redesigning of our club theme palette for both light mode and dark mode eventually moved all existing web applications to a monorepo architecture.",
+      "The monorepo consists of 4 apps and one package, out of which I have developed 2 applications individually.",
+      "Developed homepage application for our club and gallery application to post memories captured in each event.",
+       ]
   },
   {
     id: 2,
@@ -20,6 +25,12 @@ const data = [
     title: "A2A Point Website ",
     github: "https://github.com/useEffects/a2apoint?tab=readme-ov-file#project-report",
     demo: "https://a2apoint.com/",
+    description: [
+      "Superheaded the redesigning of our club theme palette for both light mode and dark mode eventually moved all existing web applications to a monorepo architecture.",
+      "The monorepo consists of 4 apps and one package, out of which I have developed 2 applications individually.",
+      "Developed homepage application for our club and gallery application to post memories captured in each event.",
+       ]
+
   },
   {
     id: 3,
@@ -27,6 +38,10 @@ const data = [
     title: "Portfolio",
     github: "https://github.com/Pavi143/Portfolio-Pavithra-V",
     demo: "pavithra.tech",
+    description:  [
+      "Portfolio website developed with TypeScript, Next.js, and deployed on Vercel.",
+      "Implemented file hosting feature to centralize certificates, resume, and other documents for efficient access and presentation."
+    ]
   },
   {
     id: 4,
@@ -34,6 +49,10 @@ const data = [
     title: "Design Patterns",
     github: "https://github.com/coding-club-gct/design-patterns",
     demo: "https://github.com/coding-club-gct/design-patterns/blob/main/README.md",
+    description:  [
+      "Documented a comprehensive blog series detailing my journey to master 11 different design patterns.",
+      "Strengthened my object-oriented programming (OOPS) concepts through practical application and in-depth exploration."
+    ]
   },
   {
     id: 5,
@@ -41,6 +60,10 @@ const data = [
     title: "SQLite Clone",
     github: "https://github.com/coding-club-gct/sqlite-clone",
     demo: "https://github.com/coding-club-gct/sqlite-clone",
+    description: [
+      "Developed CLI database management system to gain expertise in Python, Operating Systems concepts like paging, and data structures like B-Tree.",
+      "Implemented data persistence with insert and read functionalities."
+    ]
   }
 ];
 
@@ -53,11 +76,11 @@ const Portfolio = () => {
         className="container 
       portfolio__container"
       >
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, description }) => {
           return (
             <article className="portfolio__item" key={id}>
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} style={{ width: '300px', height: '500px', objectFit: 'contain' }}   />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
@@ -73,6 +96,11 @@ const Portfolio = () => {
                   Live Demo
                 </a>
               </div>
+              <div className="portfolio__item-description">
+                    {description.map((point, index) => (
+                        <p key={index}>{point}</p>
+                    ))}
+                </div>
             </article>
           );
         })}

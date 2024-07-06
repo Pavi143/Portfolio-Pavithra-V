@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaFreeCodeCamp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCode } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -11,7 +11,7 @@ const HeaderSocials = () => {
         <FaGithub />
       </a>
       <a href="https://leetcode.com/PavithraVS" target="_blank" rel="noreferrer">
-        <FaFreeCodeCamp />
+        <FaCode />
       </a>
     </div>
   );
