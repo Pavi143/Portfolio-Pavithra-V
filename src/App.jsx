@@ -21,10 +21,10 @@ const App = () => {
       <Portfolio />
       <Contact />
       <div className="nav-container">
-        <a href="https://webring.coddin.in/pavithra/back" className="btn btn-primary left-btn">
+        <a href="https://webring.codingclubgct.in/pavithra/back" className="btn btn-primary left-btn">
           Back
         </a>
-        <a href="https://webring.coddin.in/pavithra/next" className="btn btn-primary right-btn">
+        <a href="https://webring.codingclubgct.in/pavithra/next" className="btn btn-primary right-btn">
           Next
         </a>
       </div>
