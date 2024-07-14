@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <>
+  
       <Header />
       <Nav />
       <About />
@@ -19,7 +20,16 @@ const App = () => {
       <Work/>
       <Portfolio />
       <Contact />
+      <div className="nav-container">
+        <a href="https://webring.coddin.in/pavithra/back" className="btn btn-primary left-btn">
+          Back
+        </a>
+        <a href="https://webring.coddin.in/pavithra/next" className="btn btn-primary right-btn">
+          Next
+        </a>
+      </div>
       <Footer />
+
     </>
   );
 };
